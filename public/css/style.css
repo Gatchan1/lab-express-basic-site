@@ -1,0 +1,99 @@
+body {
+    background-color: #e6e6ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #D7B2E9;
+    margin-bottom: 50px
+}
+
+ul {
+    padding: 0
+}
+
+#displayedPage {
+    background-color: #D7B2E9;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: 130px;
+    height: 30px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+
+
+/* Home */
+
+.home {
+    padding: 0 100px
+}
+
+.nanas {
+    display: flex;
+    justify-content: center;
+}
+
+.nanas>img {
+    padding-top: 100px;
+    width: 300px;
+}
+
+/* About */
+
+.about {
+    display: flex; 
+}
+
+.about>div>p {
+    padding: 0 50px 0 50px
+}
+
+.aboutList {
+    width: 25vw;
+    padding-right: 50px;
+}
+
+.aboutList li {
+    padding: 5px 0;
+}
+
+/* works */
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly
+}
+
+.works>article {
+    width: 40vw;
+    padding-bottom: 50px;
+}
+
+.works img {
+    width: 25vw
+}
+
+.thanks {
+    font-size: 10px;
+    text-align: center;
+}
